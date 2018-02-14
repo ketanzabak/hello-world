@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Posts</title>
+</head>
+
+<body>
+	<h1>Posts View</h1>
+	<ul>
+	  {% for post in object_list %}
+		<li>{{ post }}</li>
+	  {% endfor %}
+	</ul>
+</body>
+</html>
